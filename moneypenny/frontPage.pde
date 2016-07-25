@@ -1,4 +1,9 @@
-
+/*
+ * frontPage
+ * Function describing the front page or initial window of the moneypenny application
+ * This function is triggered on the execution of the application
+ * Fluvio L. Lobo Fenoglietto 07/24/2016
+ */
 
 Textlabel title;
 
