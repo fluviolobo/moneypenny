@@ -73,6 +73,7 @@ public void frontPage() {
 public void startButton() {
   
   println("Starting New Trace");
+  startTrace();
   
 } // End of startButton - Controller
 
