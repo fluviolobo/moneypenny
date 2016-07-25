@@ -17,7 +17,7 @@ Button continueButton;
 Button exitButton;
 
 public void frontPage() {
-  
+
   // Title
   titleFont = createFont("Elephant",48,true);
   
