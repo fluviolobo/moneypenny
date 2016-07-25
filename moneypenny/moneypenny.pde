@@ -10,6 +10,7 @@ import controlP5.*;
 // Variables
 // - Structures and/or objects
 ControlP5 cp5;
+// - State
 
  
 void setup() {

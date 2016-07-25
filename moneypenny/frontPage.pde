@@ -39,7 +39,7 @@ public void frontPage() {
   int startButtonWidth = titleLabelWidth;
   int startButtonHeight = 25;
   
-  startButton = cp5.addButton("startButtton")
+  startButton = cp5.addButton("startButton")
                    .setPosition(startButtonXPos,startButtonYPos)
                    .setSize(startButtonWidth,startButtonHeight)
                    ;
@@ -51,7 +51,7 @@ public void frontPage() {
   int continueButtonWidth = startButtonWidth;
   int continueButtonHeight = startButtonHeight;
   
-  continueButton = cp5.addButton("continueButtton")
+  continueButton = cp5.addButton("continueButton")
                    .setPosition(continueButtonXPos,continueButtonYPos)
                    .setSize(continueButtonWidth,continueButtonHeight)
                    ;
@@ -63,9 +63,28 @@ public void frontPage() {
   int exitButtonWidth = continueButtonWidth;
   int exitButtonHeight = continueButtonHeight;
   
-  exitButton = cp5.addButton("exitButtton")
+  exitButton = cp5.addButton("exitButton")
                    .setPosition(exitButtonXPos,exitButtonYPos)
                    .setSize(exitButtonWidth,exitButtonHeight)
                    ;
   
 } // End of frontPage
+
+public void startButton() {
+  
+  println("Starting New Trace");
+  
+} // End of startButton - Controller
+
+public void continueButton() {
+  
+  println("Continue Trace");
+  
+} // End of startButton - Controller
+
+public void exitButton() {
+  
+  println("Exiting Application");
+  exit();
+  
+} // End of exitButton - Controller
