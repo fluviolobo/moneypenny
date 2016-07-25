@@ -13,7 +13,8 @@
 Textlabel titleLabel;
 PFont titleFont;
 Button startButton;
-Button stopButton;
+Button continueButton;
+Button exitButton;
 
 public void frontPage() {
   
@@ -43,16 +44,28 @@ public void frontPage() {
                    .setSize(startButtonWidth,startButtonHeight)
                    ;
   
-  // Stop Button
+  // Continue Button
   int buttonOffset = 10;
-  int stopButtonXPos = startButtonXPos;
-  int stopButtonYPos = startButtonYPos + startButtonHeight + buttonOffset;
-  int stopButtonWidth = startButtonWidth;
-  int stopButtonHeight = startButtonHeight;
+  int continueButtonXPos = startButtonXPos;
+  int continueButtonYPos = startButtonYPos + startButtonHeight + buttonOffset;
+  int continueButtonWidth = startButtonWidth;
+  int continueButtonHeight = startButtonHeight;
   
-  stopButton = cp5.addButton("stopButtton")
-                   .setPosition(stopButtonXPos,stopButtonYPos)
-                   .setSize(stopButtonWidth,stopButtonHeight)
+  continueButton = cp5.addButton("continueButtton")
+                   .setPosition(continueButtonXPos,continueButtonYPos)
+                   .setSize(continueButtonWidth,continueButtonHeight)
+                   ;
+  
+  // Exit Button
+  // int buttonOffset = 10;
+  int exitButtonXPos = continueButtonXPos;
+  int exitButtonYPos = continueButtonYPos + continueButtonHeight + buttonOffset;
+  int exitButtonWidth = continueButtonWidth;
+  int exitButtonHeight = continueButtonHeight;
+  
+  exitButton = cp5.addButton("exitButtton")
+                   .setPosition(exitButtonXPos,exitButtonYPos)
+                   .setSize(exitButtonWidth,exitButtonHeight)
                    ;
   
 } // End of frontPage
