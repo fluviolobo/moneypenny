@@ -4,15 +4,16 @@
  * Fluvio L. Lobo Fenoglietto 07/24/2016
  */
  
+// Import Libraries
+import controlP5;
  
- 
- void setup() {
+void setup() {
+
+  size(800, 600);
+  background(0);
+
+} // End of void-setup
+
+void draw() {
    
-   size(800, 600);
-   background(0);
-   
- } // End of void-setup
- 
- void draw() {
-   
- } // End of void-draw
+} // End of void-draw
