@@ -72,13 +72,18 @@ public void frontPage() {
 
 public void startButton() {
   
+  println("Clearing Front Page...");
+  clearFrontPage();
+  println("Starting New Trace...");
   startTrace();
   
 } // End of startButton - Controller
 
 public void continueButton() {
   
-  println("Continue Trace");
+  println("Clearing Front Page...");
+  clearFrontPage();
+  println("Continue Trace...");
   
 } // End of startButton - Controller
 
@@ -88,3 +93,12 @@ public void exitButton() {
   exit();
   
 } // End of exitButton - Controller
+
+public void clearFrontPage() {
+  
+  titleLabel.hide();
+  startButton.hide();
+  continueButton.hide();
+  exitButton.hide();
+  
+} // End of clearFrontPage - Function
