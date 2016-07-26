@@ -15,7 +15,7 @@ ControlP5 cp5;
  
 void setup() {
 
-  size(800, 600);
+  size(600, 800);
   background(0);
   
   cp5 = new ControlP5(this);
@@ -25,5 +25,7 @@ void setup() {
 } // End of void-setup
 
 void draw() {
+  
+  background(0);
   
 } // End of void-draw
